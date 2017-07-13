@@ -1,0 +1,151 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	background: #fff none repeat scroll 0 0;
+	color: #6c6c6c;
+	font-family: Arial, Microsoft YaHei, Simsun;
+	font-size: 14px;
+	line-height: 22px;
+	position: relative;
+	text-align: center;
+}
+
+ul,
+ol,
+dl,
+dt,
+dd,
+li,
+area {
+	list-style: outside none none;
+}
+
+em,
+i,
+u {
+	font-style: normal;
+}
+
+textarea,
+input {
+	word-wrap: break-word;
+	word-break: break-all;
+	padding: 0px;
+}
+
+a {
+	color: #6c6c6c;
+	cursor: pointer;
+	outline: medium none;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #6c6c6c;
+	text-decoration: none;
+}
+
+a:active {
+	outline: medium none;
+}
+
+img {
+	border: medium none;
+}
+
+span {
+	/*vertical-align: middle;*/
+}
+
+input {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: medium none;
+	outline: medium none;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	-moz-binding: none;
+	background-color: -moz-field !important;
+	block-size: 13px;
+	border: 2px inset threedlightshadow !important;
+	box-sizing: border-box;
+	color: -moz-fieldtext !important;
+	cursor: default;
+	inline-size: 13px;
+	padding: 0 !important;
+}
+
+input[type="radio"] {
+	-moz-appearance: radio;
+	border-radius: 100% !important;
+	margin-block-end: 0;
+	margin-block-start: 3px;
+	margin-inline-end: 3px;
+	margin-inline-start: 5px;
+}
+
+i {
+	font-style: normal;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.red {
+	color: #e63636;
+}
+
+.font_blue {
+	color: #42a5db;
+}
+
+.font_hei {
+	color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+.padding_zhou {
+	padding: 3px;
+}
+
+.clear {
+	clear: both;
+}
+
+.inner {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+.clearfix::after {
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
